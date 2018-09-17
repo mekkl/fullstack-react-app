@@ -60,6 +60,25 @@ Denne linje tilføjes i .eslintrc filen
 }
 ```
 
+## Tvinge linting inden der laves commit
+Man kan tvinge linting inden hvert commit ved, at benytte en [pre-commit](https://www.npmjs.com/package/pre-commit) hook installer. Den lader en kører specifikke scripts inden der gives tilladelse til commits. Derfor kan "lint" scriptet blive kørt før der laves commit.
+
+Følgende afhængihed tilføjes.
+```
+yarn add -D pre-commit
+```
+
+Den eneste ting man skal gøre er, at tilføje pre-commit array til package.json filen, som specificerer hvilket script man vil have kørt i en bestemt rækkefølge.
+```javascript
+{
+	...
+	"pre-commit": [
+		"lint"
+	]
+	...
+}
+````
+
 ## Note
 
 ### Fejl ved Lint script
