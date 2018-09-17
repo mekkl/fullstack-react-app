@@ -61,13 +61,16 @@ Denne linje tilføjes i .eslintrc filen
 ```
 
 ## Note
-Oplevede følgende fejl ved kørsel af Lint scriptet:
+
+### Fejl ved Lint script
+Oplevede følgende fejl ved installation af afhængigheden:
 ```
 eslint@5.6.0: The engine "node" is incompatible with this module.
 ```
 
-Installerede dependency'ed med npm i stedet for yarn, som virkede.
+Installerede dependency'ed med npm i stedet for yarn, som virkede. En anden løsning kunne også have været af installerer med yarn og benytte --ignore-engines
 
+### Ændring af AirBnB regler
 Lavede tre nye regler for ESLint, da jeg ville ændre på nogle af de standarder som AirBnB havde for deres Style Guide. Mit problem var, at deres type af linje skift ikke fungerede på min windows maskine (dette skal måske ændres for min mac?), samt at de benyttede spaces og ikke tabs.
 ```javascript
 "rules": {
