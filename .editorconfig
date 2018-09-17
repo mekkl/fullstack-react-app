@@ -1,0 +1,19 @@
+# EditorConfig is awesome: https://EditorConfig.org
+
+# top-most EditorConfig file
+root = true
+
+# General settings for whole project
+[*]
+indent_style = tab
+#end_of_line = lf
+#indent_size = 1
+charset = utf-8
+## set to true to remove any whitespace characters
+## preceding newline characters and false to ensure it doesn't.
+trim_trailing_whitespace = true
+
+# Format specific overrides
+[*.md]
+max_line_length = 0
+trim_trailing_whitespace = false
