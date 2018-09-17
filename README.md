@@ -15,7 +15,22 @@ ES2015 er i bund og grund syntaktisk sukker som betyder, at man kan bruge et væ
 
 Babel dependencies som benyttes i dette projekt:
 ```
-babel-core babel-cli
+yarn add babel-core babel-cli
+```
+
+Der tilføjes en .babelrc fil til top level af projektet. For at oplyse Babel om, at der skal compiles ES2015 kode til normal ES5, så skal der installeres ES2015 preset, som tilføjes til preset listen. Et andet brugbart preset er stage-0, som gør at man kan bruge nyere features som [Object rest spread transform](https://babeljs.io/docs/en/babel-plugin-transform-object-rest-spread) og [Dynamic Import](https://babeljs.io/docs/en/babel-plugin-syntax-dynamic-import/). 
+
+De skal først hentes ved:
+```
+yarn add babel-preset-es2015 babel-preset-stage-0
+```
+
+Og tilføjes derefter til .babelrc:
+```
+{
+    "presets": ["es2015", "stage-0"],
+    "plugins": []
+}
 ```
 
 # Style Guide
@@ -26,7 +41,7 @@ En Style Guide er et sæt af standardiseret regler for hvordan kode skal skrives
 
 ESlint depenency:
 ```
-eslint
+yarn -D add eslint
 ```
 
 ESLint har blive [konfigureret](https://eslint.org/docs/user-guide/configuring) ved, at benytte en .eslintrc fil. Filen skal laves som en top level fil af projektet.
@@ -36,12 +51,12 @@ Hvis man ikke allerede har en style guide, så kan man vælge andres. I dette pr
 
 Style Guide dependency:
 ```
-eslint-config-airbnb
+yarn -D add eslint-config-airbnb
 ```
 
 Style Guiden er afhængig af andre dependencies:
 ```
-eslint-plugin-import eslint-plugin-jsx-a11y eslint-plugin-react
+yarn -D add eslint-plugin-import eslint-plugin-jsx-a11y eslint-plugin-react
 ```
 
 ## Linting ikke-standard ES2015 syntax
@@ -49,7 +64,7 @@ Nogle ES2015 features som f.eks. class properties er virkelige brugbare, men de 
 
 Dependency der benyttes til dette:
 ```
-babel-eslint
+yarn -D add babel-eslint
 ```
 
 Denne linje tilføjes i .eslintrc filen
@@ -77,7 +92,7 @@ Den eneste ting man skal gøre er, at tilføje pre-commit array til package.json
 	]
 	...
 }
-````
+```
 
 ## Note
 
