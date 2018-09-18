@@ -5,6 +5,8 @@ Trying to build a fullstack react application boilerplate from https://blog.clou
 
 [The twelve-factor app](https://12factor.net/)
 
+[Git Workflow](https://gist.github.com/calaway/ea880263b0c0495bb00ee877f001dc59)
+
 Initial server setup with [express-generator](https://expressjs.com/en/starter/generator.html)
 
 # Syntax
