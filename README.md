@@ -3,6 +3,8 @@ Fullstack React Application
 
 Trying to build a fullstack react application boilerplate from https://blog.cloudboost.io/create-a-react-application-from-scratch-part-1-introduction-b2e66dfb3aae
 
+[The twelve-factor app](https://12factor.net/)
+
 # Syntax
 ES2015 er en signifikant updatering to sproget og tilføjer en stor størrelse af nye features. 
 
