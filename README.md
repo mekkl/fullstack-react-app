@@ -5,6 +5,8 @@ Trying to build a fullstack react application boilerplate from https://blog.clou
 
 [The twelve-factor app](https://12factor.net/)
 
+Initial server setup with [express-generator](https://expressjs.com/en/starter/generator.html)
+
 # Syntax
 ES2015 er en signifikant updatering to sproget og tilføjer en stor størrelse af nye features. 
 
