@@ -9,6 +9,10 @@ Trying to build a fullstack react application boilerplate from https://blog.clou
 
 Initial server setup with [express-generator](https://expressjs.com/en/starter/generator.html)
 
+[Directory structure for JavaScript/Node Projects](https://gist.github.com/tracker1/59f2c13044315f88bee9)
+
+[Node and webpack](https://webpack.js.org/configuration/node/)
+
 # Syntax
 ES2015 er en signifikant updatering to sproget og tilføjer en stor størrelse af nye features. 
 
