@@ -1,12 +1,12 @@
-#!/usr/bin/env node
-
+/* eslint-disable */
 /**
  * Module dependencies.
  */
 
-var app = require('../app');
+var app = require('./app');
 var debug = require('debug')('fullstack-react-app:server');
 var http = require('http');
+
 
 /**
  * Get port from environment and store in Express.
