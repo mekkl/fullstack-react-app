@@ -13,6 +13,8 @@ Initial server setup with [express-generator](https://expressjs.com/en/starter/g
 
 [Node and webpack](https://webpack.js.org/configuration/node/)
 
+[Loggin in Node.js](https://blog.risingstack.com/node-js-logging-tutorial/)
+
 # Syntax
 ES2015 er en signifikant updatering to sproget og tilføjer en stor størrelse af nye features. 
 
