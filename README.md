@@ -15,6 +15,8 @@ Initial server setup with [express-generator](https://expressjs.com/en/starter/g
 
 [Loggin in Node.js](https://blog.risingstack.com/node-js-logging-tutorial/)
 
+[Express best practices](https://expressjs.com/en/advanced/best-practice-performance.html)
+
 # Syntax
 ES2015 er en signifikant updatering to sproget og tilføjer en stor størrelse af nye features. 
 
